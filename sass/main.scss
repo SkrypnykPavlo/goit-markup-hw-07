@@ -1,11 +1,11 @@
 // utils styles
 @import "./utils/vars";
-@import "./utils/visually-hidden";
 
 // base styles
 @import "./base/reset";
 @import "./base/base";
 @import "./base/container";
+@import "./utils/visually-hidden";
 
 // layout styles
 @import "./layouts/page-header";
@@ -14,7 +14,6 @@
 @import "./layouts/hero";
 @import "./layouts/team-section";
 @import "./layouts/footer-section";
-@import "./components/portfolio";
 
 // components styles
 @import "./components/site-nav";
@@ -28,3 +27,4 @@
 @import "./components/modal/backdrop";
 @import "./components/modal/modal-form";
 @import "./components/modal/agreement-checkbox";
+@import "./components/portfolio";
