@@ -10,7 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   <title>WebStudio</title>
 </head>
 
@@ -42,7 +43,7 @@
     <section class="hero hero-bg">
       <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero__btn" data-modal-open>Замовити послугу</button>
+        <button type="button" class="btn" data-modal-open>Замовити послугу</button>
       </div>
     </section>
     <!-- Переваги -->
@@ -348,9 +349,11 @@
                 Київ, пр-т Лесі
                 Українки, 26</a>
             </li>
-            <li class="address__list"><a class="address__contact-link " href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="address__list"><a class="address__contact-link "
+                href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="address__list"><a class="address__contact-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+            <li class="address__list"><a class="address__contact-link" href="tel:380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
@@ -393,7 +396,7 @@
         <label for="email" class="form__title">Підпишіться на розсилку</label>
         <form class="subscribe-email">
 
-          <input class="subscribe-email__input" type="text" name="email" placeholder="E-mail" id="email" >
+          <input class="subscribe-email__input" type="text" name="email" placeholder="E-mail" id="email">
 
           <div class="footer-form">
             <button class="footer-form__button" type="submit">
@@ -444,11 +447,12 @@
         </label>
 
         <label class="client-info__label" for="feedback">Коментар</label>
-        <textarea class="client-info__comment" name="feedback" id="feedback" rows="5" placeholder="Введіть текст"></textarea>
+        <textarea class="client-info__comment" name="feedback" id="feedback" rows="5"
+          placeholder="Введіть текст"></textarea>
 
         <div class="agree-container">
           <label for="agreement" class="client-info__agree">
-            <input class="client-agree visually-hidden" type="checkbox" name="user-agreement" id="agreement"/>
+            <input class="client-agree visually-hidden" type="checkbox" name="user-agreement" id="agreement" />
             Погоджуюся з розсилкою та приймаю&nbsp;
             <a href="" class="client-info__deal">Умови договору</a>
             <svg class="client-info__icon-check" width="16" height="15">

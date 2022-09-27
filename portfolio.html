@@ -11,19 +11,21 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <title>WebStudio</title>
 </head>
 
 <body class="body">
     <header class="page-header">
         <div class="container page-header__container">
-                <a class="logo" href="./index.html"><span lang="en"><span class="logo-header">Web</span>Studio</span></a>
+            <a class="logo" href="./index.html"><span lang="en"><span class="logo-header">Web</span>Studio</span></a>
 
             <nav>
                 <ul class="site-nav">
                     <li class="site-nav__item"><a class="site-nav__link" href="./index.html">Студія</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link current" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link current" href="./portfolio.html">Портфоліо</a>
+                    </li>
                     <li class="site-nav__item"><a class="site-nav__link" href="">Контакти</a></li>
                 </ul>
             </nav>
@@ -32,8 +34,8 @@
                             class="envelope-icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope-hover"></use>
                         </svg>info@devstudio.com</a></li>
-                <li class="contacts-list__item"><a class="contacts-list__link" href="tel:380961111111"><svg class="phone-icon"
-                            width="16" height="12">
+                <li class="contacts-list__item"><a class="contacts-list__link" href="tel:380961111111"><svg
+                            class="phone-icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a></li>
             </ul>
@@ -44,12 +46,20 @@
             <!-- filters -->
             <div class="container">
                 <h1 class="section__header visually-hidden">Приклади</h1>
-                <ul class="filters">
-                    <li class="navigation-bar"><button class="navigation-bar__item current" type="button">Усі</button></li>
-                    <li class="navigation-bar"><button class="navigation-bar__item" type="button">Веб-сайти</button></li>
-                    <li class="navigation-bar"><button class="navigation-bar__item" type="button">Додатки</button></li>
-                    <li class="navigation-bar"><button class="navigation-bar__item" type="button">Дизайн</button></li>
-                    <li class="navigation-bar"><button class="navigation-bar__item" type="button">Маркетинг</button></li>
+                <ul class="navigation-bar">
+                    <li class="navigation-bar__list"><button class="navigation-bar__item current"
+                            type="button">Усі</button>
+                    </li>
+                    <li class="navigation-bar__list"><button class="navigation-bar__item"
+                            type="button">Веб-сайти</button>
+                    </li>
+                    <li class="navigation-bar__list"><button class="navigation-bar__item" type="button">Додатки</button>
+                    </li>
+                    <li class="navigation-bar__list"><button class="navigation-bar__item" type="button">Дизайн</button>
+                    </li>
+                    <li class="navigation-bar__list"><button class="navigation-bar__item"
+                            type="button">Маркетинг</button>
+                    </li>
                 </ul>
                 <!-- cards -->
                 <ul class="portfolio">
@@ -193,7 +203,7 @@
 
 
                     <li class="portfolio__card">
-                        <a class="card-portfolio-link" href="">
+                        <a class="portfolio__link" href="">
                             <div class="portfolio__thumb">
                                 <img src="./images/portfolio/portfolio8.jpg" alt="" width="370" height="294" />
                                 <div class="portfolio__overlay">
@@ -213,7 +223,7 @@
 
 
                     <li class="portfolio__card">
-                        <a class="card-portfolio-link" href="">
+                        <a class="portfolio__link" href="">
                             <div class="portfolio__thumb">
                                 <img src="./images/portfolio/portfolio9.jpg" alt="" width="370" height="294" />
                                 <div class="portfolio__overlay">
@@ -253,7 +263,8 @@
                         <li class="address__list"><a class="address__contact-link "
                                 href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li class="address__list"><a class="address__contact-link" href="tel:380961111111">+38 096 111 11
+                        <li class="address__list"><a class="address__contact-link" href="tel:380961111111">+38 096 111
+                                11
                                 11</a></li>
                     </ul>
                 </address>
@@ -292,13 +303,13 @@
                     </li>
                 </ul>
             </div>
-    
+
             <div class="form">
                 <label for="email" class="form__title">Підпишіться на розсилку</label>
                 <form class="subscribe-email">
-    
+
                     <input class="subscribe-email__input" type="text" name="email" placeholder="E-mail" id="email">
-    
+
                     <div class="footer-form">
                         <button class="footer-form__button" type="submit">
                             <span class="footer-form__title">Підписатися</span>
